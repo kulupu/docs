@@ -1,0 +1,9 @@
+{
+  "title": "Kulupu",
+  "url": "https://that.world/~wei",
+  "baseUrl": "/",
+  "github": "https://github.com/kulupu/docs",
+  "sitemap": {
+    "enable": true
+  }
+}
