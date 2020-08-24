@@ -1,0 +1,4 @@
+This repository hosts the source code of Kulupu website
+(https://kulupu.network). It is built with the Eighty static site
+generator under the Munjero infrastructure
+(https://github.com/munjero/eighty).
