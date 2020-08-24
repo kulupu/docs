@@ -1,0 +1,36 @@
+= Mining
+Wei Tang <wei@that.world>
+:license: CC-BY-SA-4.0
+:license-code: Apache-2.0
+
+[meta="description"]
+This article is a simple guide on how to get started mining Kulupu.
+
+== Import or generate a mining key
+
+Kulupu implements signed mining. To mine Kulupu blocks, you have to
+have the coinbase private key stored in the mining software, as a new
+signature is produced for every new nonce. We refer to the private key
+for signed mining as the **mining key**.
+
+The eaiest way to get a mining key is to generate a new one using the
+`generate-mining-key` command:
+
+[source,bash]
+kulupu generate-mining-key
+
+Keep your secret seed in a secure place.
+
+Alternatively, you can also import an existing private key as the
+mining key, using the `import-mining-key` command:
+
+[source,bash]
+kulupu import-mining-key "<secret seed>"
+
+== Pass author argument to node for mining
+
+Remember either the public key or the address, and pass it to node for
+mining. For example:
+
+[source,bash]
+kulupu --validator --author <coinbase public key>
