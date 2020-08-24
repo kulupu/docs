@@ -5,5 +5,31 @@
   "github": "https://github.com/kulupu/docs",
   "sitemap": {
     "enable": true
-  }
+  },
+  "links": [
+    {
+      "name": "Core Paper",
+      "url": "https://corepaper.org/kulupu"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/kulupu/kulupu"
+    },
+    {
+      "name": "Wiki",
+      "url": "https://consensus.corepaper.org/wiki/Kulupu"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kulupunetwork"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/DZbg4rZ"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/KulupuOfficial"
+    }
+  ]
 }
