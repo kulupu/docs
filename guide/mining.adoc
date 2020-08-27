@@ -72,3 +72,22 @@ ensure that you have started the mining node with approriate
 If you use a custom base path through the `--base-path` or `-d` flag,
 when importing the mining key, the flag should also be present for the
 keystore import to obtain the correct path.
+
+=== Node killed
+
+If you see your node about to generate the RandomX cache and getting
+killed, it is due to the machine not having enough memory. You can get
+the mining routine running by setting up swap memory (Linux) or
+virtual memory (Windows). However, do note that if you do this, the
+mining will be done with degraded performance.
+
+=== Warnings that can be ignored
+
+If you encountered the following warnings, they are normal and can be
+ignored:
+
+* "Ran out of free WASM instances" means it is generating new WASM
+  instances.
+* "This peer ID uses a legacy, deprecated representation" can be
+  ignored. You can also attempt to fix it by completely remove the
+  data store and restart the node.
