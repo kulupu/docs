@@ -31,13 +31,13 @@ The likely schedule of future referenda are:
 == Past referenda
 
 * *Referendum No. 0*: A no-op referendum that writes an on-chain
-  remark, with text "The New Era of Kulupu". Passed.
-* *Referendum No. 1*: *Sky Island 68* runtime upgrade. Passed and
-  executed.
-* *Referendum No. 2*: *Red Coast Base* runtime upgrade. Passed and
-  executed.
-* *Referendum No. 3*: *Seeker Camp* runtime upgrade. Passed and
-  executed.
+  remark, with text "The New Era of Kulupu". _Passed._
+* *Referendum No. 1*: *Sky Island 68* runtime upgrade. _Passed and
+  executed._
+* *Referendum No. 2*: *Red Coast Base* runtime upgrade. _Passed and
+  executed._
+* *Referendum No. 3*: *Seeker Camp* runtime upgrade. _Passed and
+  executed._
 * *Referendum No. 4*: Reduce *block reward* to _54 KLP_ at block
-  200000. The previous block reward of 60 KLP. Passed.
-* *Referendum No. 5*: *Red Gate* runtime upgrade. Passed.
+  200000 (24 Sep, 2020). The previous block reward of 60 KLP. _Passed._
+* *Referendum No. 5*: *Red Gate* runtime upgrade. _Passed._
