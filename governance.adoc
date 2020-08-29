@@ -39,5 +39,6 @@ The likely schedule of future referenda are:
 * *Referendum No. 3*: *Seeker Camp* runtime upgrade. _Passed and
   executed._
 * *Referendum No. 4*: Reduce *block reward* to _54 KLP_ at block
-  200000 (24 Sep, 2020). The previous block reward of 60 KLP. _Passed._
+  200000 (24 Sep, 2020). The previous block reward is
+  60 KLP. _Passed._
 * *Referendum No. 5*: *Red Gate* runtime upgrade. _Passed._
