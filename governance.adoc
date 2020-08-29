@@ -22,10 +22,11 @@ The likely schedule of future referenda are:
 * *Grand View Garden* runtime upgrade, enabling signed mining and
   reward block. The voting begins on block 171360 (4 Sep, 2020) and
   ends on 181440 (11 Sep, 2020).
-* Reduce *block reward* to _30 KLP_ at block 205600. The current block
-  reward is 60 KLP and is scheduled to be reduced to 54 KLP at block
-  200000. The voting begins on block 181440 (11 Sep, 2020) and ends on
-  block 191520 (18 Sep, 2020).
+* Reduce *block reward* to _30 KLP_ at block 205600 (28 Sep,
+  2020). The current block reward is 60 KLP and is scheduled to be
+  reduced to 54 KLP at block 200000 (24 Sep, 2020). The voting begins
+  on block 181440 (11 Sep, 2020) and ends on block 191520 (18 Sep,
+  2020).
 
 == Past referenda
 
