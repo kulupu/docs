@@ -14,7 +14,7 @@ _Early August, 2020_
 In the *Red Coast Base* runtime upgrade, an overlooked PR in Substrate
 repo resulted in runtime decoding error for WebAssembly function
 exports. The issue was fixed in Substrate
-[PR#6484](https://github.com/paritytech/substrate/pull/6484). However,
+link:https://github.com/paritytech/substrate/pull/6484[PR#6484]. However,
 it did not make it into the corresponding runtime upgrade.
 
 === Impact
