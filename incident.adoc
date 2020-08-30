@@ -1,0 +1,75 @@
+= Incidents
+Wei Tang <wei@that.world>
+:license: CC-BY-SA-4.0
+:license-code: Apache-2.0
+
+[meta="description"]
+This page documents the past network incidents of the Kulupu
+blockchain.
+
+== Decoding error in runtime dealing with multiple parameters
+
+_Early August, 2020_
+
+In the *Red Coast Base* runtime upgrade, an overlooked PR in Substrate
+repo resulted in runtime decoding error for WebAssembly function
+exports. The issue was fixed in Substrate
+[PR#6484](https://github.com/paritytech/substrate/pull/6484). However,
+it did not make it into the corresponding runtime upgrade.
+
+=== Impact
+
+Fortunately, the decoding error did not affect the core functionality
+of the blockchain. Two WebAssembly function exports use multiple
+parameters -- `validate_transaction` and `check_inherents`. Their
+corresponding native variant does not suffer from the same decoding
+error and can be used as alternatives to make sure the chain can
+continue to function.
+
+=== Resolution
+
+The immediate temporary resolution was to ask miners to continue to
+use version `v1.2.0`. That version has the corresponding native
+variant of the runtime and the client will prefer to use them when
+calling `validate_transaction` and `check_inherents`.
+
+The root issue was fixed in the next *Seeker Camp* runtime upgrade
+where PR#6484 was included.
+
+== Missing runtime migration for the scheduler module
+
+_Late August, 2020_
+
+From the *Red Coast Base* to *Seeker Camp* runtime upgrade, the
+storage version of scheduler module was changed from `V1` to
+`V2`. However, the corresponding runtime migration script for
+scheduler module wasn't included.
+
+=== Impact
+
+The following events happened that resulted in version mismatch of two
+scheduler storage items:
+
+* Referendum#4 was passed and was scheduled using the *Red Coast Base*
+  runtime, with scheduler storage version `V1`, at block 151,200.
+* Referendum#5 was passed and was scheduled using the *Red Coast Base*
+  runtime, with scheduler storage version `V1`, at block 161,280.
+* *Seeker Camp* runtime was activated at block 162,720, changing the
+  scheduler module storage to version `V2` but did not run the
+  migration script.
+
+=== Resolution
+
+The issue is planned to be resolved by removing the automatic
+scheduling of referendum#4 and referendum#5, and manually enact
+referendum#4 and referendum#5, using a fast-tracked democracy
+referendum.
+
+A council motion with the preimage of the following root batch call
+was submitted:
+
+1. Clear the storage prefix of `Scheduler` module, to remove the
+   faulty `Agenda` values.
+2. Set `Scheduler::StorageVersion` to `V2` manually.
+3. Enact referendum#4 manually.
+4. Enact referendum#5 manually.
