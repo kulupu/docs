@@ -23,7 +23,7 @@ effect for the blockchain for a certain period of time.
 For details of the specification of Kulupu's signed mining, see
 link:https://specs.corepaper.org/53-ksigned[53-KSIGNED].
 
-After this upgrade, newly minted mining rewards will a locking
+After this upgrade, newly minted mining rewards will have a locking
 period. First, the voluntary taxation is deducted. After this, at
 least 1 KLP will always be without locks, so that the miner can always
 have money to pay for transaction fees. For the remainder of the
