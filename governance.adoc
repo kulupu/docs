@@ -11,7 +11,7 @@ network.
 
 Referendum No. 8 is to activate *Grand View Garden* runtime upgrade,
 enabling signed mining and reward block. See
-link:https://kulupu.network/runtime/grand-view-garden/[mull
+link:https://kulupu.network/runtime/grand-view-garden/[more
 description] of this runtime upgrade.
 
 The voting begins on block 171360 (4 Sep, 2020) and ends on 181440 (11
