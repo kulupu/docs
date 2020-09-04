@@ -9,19 +9,19 @@ network.
 
 == Current referendum
 
-Referendum No. 6 is to set the *voluntary taxation* rate of Kulupu
-network to _20%_. The current taxation rate is 0%.
+Referendum No. 8 is to activate *Grand View Garden* runtime upgrade,
+enabling signed mining and reward block. See
+link:https://kulupu.network/runtime/grand-view-garden/[mull
+description] of this runtime upgrade.
 
-The voting begins on block 161280 (28 Aug, 2020) and ends on block
-171360 (4 Sep, 2020).
+The voting begins on block 171360 (4 Sep, 2020) and ends on 181440 (11
+Sep, 2020).
 
 == Future referenda
 
 The likely schedule of future referenda are:
 
-* *Grand View Garden* runtime upgrade, enabling signed mining and
-  reward block. The voting begins on block 171360 (4 Sep, 2020) and
-  ends on 181440 (11 Sep, 2020).
+*
 * Reduce *block reward* to _30 KLP_ at block 205600 (28 Sep,
   2020). The current block reward is 60 KLP and is scheduled to be
   reduced to 54 KLP at block 200000 (24 Sep, 2020). The voting begins
@@ -39,6 +39,10 @@ The likely schedule of future referenda are:
 * *Referendum No. 3*: *Seeker Camp* runtime upgrade. _Passed and
   executed._
 * *Referendum No. 4*: Reduce *block reward* to _54 KLP_ at block
-  200000 (24 Sep, 2020). The previous block reward is
+  200000 (24 Sep, 2020). The previous block reward was
   60 KLP. _Passed._
 * *Referendum No. 5*: *Red Gate* runtime upgrade. _Passed._
+* *Referendum No. 6*: Set the *voluntary taxation rate* to 20%. The
+   previous rate was 0%. _Passed._
+* *Referendum No. 7*: Emergency referendum tabled to fix an issue in
+   Kulupu's scheduler runtime module. _Fixed and passed._
