@@ -1,0 +1,157 @@
+body {
+    background-color: #000 !important;
+}
+
+.key-features {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.governance {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gov-text {
+    margin-top: unset !important;
+    text-align: center;
+    font-size: 21px;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.updates {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.technology {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.council-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #17b06b;
+} 
+
+.council-description {
+    text-align: center;
+    font-size: 13px;
+    color: #716da9;
+    display: none;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 150px;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 0 auto;
+}
+
+.footer-links li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+
+.footer-links li>a {
+    color: #fff;
+}
+
+.right-buttons {
+    position: absolute;
+    right: 1px;
+    float: left;
+}
+
+.faucet {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.pow-para span {
+    font-weight: 600;
+    color: #17b06b;
+}
+
+.pow-para {
+}
+
+.title-underline {
+    color: #fff;
+    background: #fff;
+    width: 40px;
+}
+
+@media ( max-width: 900px ) {
+    .orb {
+        position: absolute !important;
+        padding-left: 156px !important;
+        top: 212px !important;
+    }
+
+    .single-built {
+        margin-top: 20px;
+    }
+
+    .second-row {
+        margin-top: unset !important;
+    }
+
+    .second-row-mobile {
+        display: block !important;
+        margin-top: unset !important;
+    }
+
+    .second-row {
+        display: none !important;
+        margin-top: unset !important;
+    }
+
+    .pad-lt {
+        padding-left: 30px;
+    }
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.single-built
+{
+    padding-top: 15px;
+    border-radius: 50px;
+    background: #052516;
+}
+
+.second-row {
+    margin-top: 50px;
+}
+
+.second-row-mobile {
+    margin-top: 50px;
+}
+
+
