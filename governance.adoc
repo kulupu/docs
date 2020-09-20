@@ -9,7 +9,7 @@ network.
 
 == Current referendum
 
-Referendum No. 10 is to set the balance of treasury to _10000
+Referendum No. 10 is to set the balance of treasury to _100000
 KLP_. Note that technically, this can either mint to treasury or burn
 from treasury, depending on how many coins treasury will have at the
 activation block.
