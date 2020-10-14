@@ -44,7 +44,7 @@ body {
 .council-title {
     margin-top: 10px;
     text-align: center;
-    font-size: 16px;
+    font-size: 19px;
     color: #17b06b;
 } 
 
@@ -154,4 +154,69 @@ body {
     margin-top: 50px;
 }
 
+.togglers {
+    margin: 0 auto;
+    padding: 17px;
+    border: 2px solid #17b06b;
+    border-radius: 11px;
+    padding-left: 8px !important;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 82%) !important; /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    text-align: center;
+    padding-top: 25%;
+  }
+
+  .single-member p {
+    font-size: 11px;
+}
+
+.green-logo {
+    color: #17b06b
+}
+
+.jumbotron .orb ::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: solid 2px #17b06b;
+    pointer-events: none;
+}
+
+.jumbotron .orb ::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: solid 2px #000;
+    pointer-events: none;
+}
+
+.navbar-main {
+    border-bottom: 1px solid #5d5d5d;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.home-section {
+    margin-top: 70px;
+}
 
