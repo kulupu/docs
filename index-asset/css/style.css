@@ -132,6 +132,10 @@ body {
     .pad-lt {
         padding-left: 30px;
     }
+
+    .mob-logo {
+        display: block !important;
+    }
 }
 
 .icon-img {
@@ -218,5 +222,9 @@ body {
 
 .home-section {
     margin-top: 70px;
+}
+
+.mob-logo {
+    display: none;
 }
 
