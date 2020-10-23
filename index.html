@@ -20,12 +20,28 @@
     <link rel="stylesheet" href="index-asset/css/style.css">
     <link rel="stylesheet" href="index-asset/css/bootstrap4-neon-glow.min.css">
     <link rel="stylesheet" href="index-asset/css/orb.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index-asset/js/preloader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="index-asset/js/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
   </head>
   <body>
+
+    <div class="preloader-wrapper">
+      <div class="preloader">
+          <img src="index-asset/images/klpglitch.gif" alt="NILA">
+      </div>
+    </div>
 
   <div class="navbar-dark text-white navbar-main">
     <div class="container">
@@ -36,7 +52,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="index.html" class="pl-md-0 p-3 text-light"><img src="index-asset/images/Kulupu_Logo White.png" width="200" alt=""></a>
+            <a href="index.html" class="pl-md-0 p-3 text-light desk-logo"><img src="index-asset/images/Kulupu_Logo White.png" width="200" alt=""></a>
           </div>
           <div class="right-buttons">
             <a href="/overview/" class="p-3 text-decoration-none text-light">Docs</a>
@@ -50,7 +66,7 @@
     </div>
   </div>
 
-  <div class="jumbotron bg-transparent mb-0 radius-0 home-section">
+  <div class="jumbotron bg-transparent mb-0 radius-0 home-section" data-aos="fade-down">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -70,6 +86,11 @@
                class="btn btn-secondary btn-shadow px-3 my-2 ml-0 text-left">
               <span class="fab fa-telegram mr-2"></span>
               Telegram
+            </a>
+            <a style="margin-left: 5px !important;" target="_blank" href="https://github.com/kulupu/kulupu"
+               class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">
+              <span class="fab fa-github mr-2"></span>
+              Github
             </a>
           </div>
           <p style="font-weight: 500; margin-top: 20px; margin-bottom: 5px !important;">Proof of Work parameters:</p>
@@ -383,7 +404,7 @@
     </div>
   </div>
 
-  <section class="technology">
+  <section class="technology" data-aos="fade-down">
     <div class="container">
       <div class="row">
         <h4 style="margin: 0 auto; color: #fff;">Built With the Best Technology</h4>
@@ -392,7 +413,7 @@
 
       <h5 style="margin-top: 50px; color: #fff; text-align: center; margin-bottom: 35px; font-weight: 500;">Kulupu is inspired by industry leading technologies:</h5>
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm"  data-aos="fade-up" data-aos-duration="2000">
           <div class="container single-built">
             <div class="row">
               <div class="col-3">
@@ -409,7 +430,7 @@
           </div>
         </div>
 
-        <div class="col-sm">
+        <div class="col-sm" data-aos="fade-up" data-aos-duration="2000">
           <div class="container single-built">
             <div class="row">
               <div class="col-3">
@@ -426,7 +447,7 @@
           </div>
         </div>
 
-        <div class="col-sm">
+        <div class="col-sm" data-aos="fade-up" data-aos-duration="2000">
           <div class="container single-built">
             <div class="row">
               <div class="col-3">
@@ -446,7 +467,7 @@
 
       <div class="row second-row-mobile">
         <div class="col-sm"></div>
-        <div class="col-sm">
+        <div class="col-sm" data-aos="fade-up" data-aos-duration="2000">
           <div class="container single-built">
             <div class="row">
               <div class="col-3">
@@ -469,7 +490,7 @@
 
 </section>
 
-<section class="key-features">
+<section class="key-features" data-aos="fade-down">
   <div class="container">
     <div class="row">
       <h4 style="margin: 0 auto; color: #fff;">Features</h4>
@@ -477,7 +498,7 @@
     <hr class="my-4 title-underline">
 
     <div style="margin-top: 75px" class="row">
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           No pre-mine
@@ -487,7 +508,7 @@
         </p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           ASIC-resistant
@@ -497,7 +518,7 @@
         </p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           Voluntary taxation and treasury
@@ -507,7 +528,7 @@
         </p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           On-chain governance and forkless upgrade
@@ -519,7 +540,7 @@
     </div>
 
     <div style="margin-top: 75px" class="row">
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           Interoperability with Polkadot
@@ -529,7 +550,7 @@
         </p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           Actor-based smart contract
@@ -539,7 +560,7 @@
         </p>
       </div>
 
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           Censorship resistant
@@ -548,7 +569,7 @@
           Like any decentralized blockchain system, it is censorship resistant, accessible to everyone, peer-to-peer and permission-less.
         </p>
       </div>
-      <div class="col-sm">
+      <div class="col-sm" data-aos="zoom-in-right">
         <div style="font-size: 21px;
           font-weight: 400;" class="lead mb-3 text-mono text-success">
           Signed mining
@@ -563,7 +584,7 @@
 </section>
 
 
-<section class="governance">
+<section class="governance" data-aos="fade-down">
   <div class="container">
     <div class="row">
       <h4 style="margin: 0 auto; color: #fff;">Governance of Kulupu</h4>
@@ -582,7 +603,7 @@
   </div>
 </section>
 
-<section class="updates">
+<section class="updates" data-aos="fade-down">
   <div class="container" style="text-align: center;">
       <div class="row">
         <h3 style="margin: 0 auto; color: #fff;">Sign Up for Updates</h3>
@@ -600,7 +621,7 @@
   </div>
 </section>
 
-<section class="about council-section">
+<section class="about council-section" data-aos="fade-down">
   <div class="container">
     <div class="row">
       <div style="width: 100%; border: 1px solid #6dff12; background: unset;" class="jumbotron">
@@ -619,7 +640,7 @@
   </div>
 </section>
 
-<section class="faucet">
+<section class="faucet" data-aos="fade-down">
   <div class="container">
     <div class="row">
       <h4 style="margin: 0 auto; color: #fff;">Faucet</h4>
@@ -664,13 +685,10 @@
   </div>
 </section>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script>
+  AOS.init();
+</script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="index-asset/js/script.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
   </body>
 </html>

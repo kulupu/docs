@@ -136,6 +136,10 @@ body {
     .mob-logo {
         display: block !important;
     }
+
+    .desk-logo {
+        display: none !important;
+    }
 }
 
 .icon-img {
@@ -226,5 +230,28 @@ body {
 
 .mob-logo {
     display: none;
+}
+
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
 }
 

@@ -6,7 +6,7 @@ $(document).ready(function () {
     $.get('https://kulupu-council.herokuapp.com/members', function(response) {
         console.log(response);
         response.forEach((element, index) => {
-            var template = `<div style="text-align: center; margin-top: 50px;" class="col-sm-3 single-member">
+            var template = `<div style="text-align: center; margin-top: 50px;" class="col-sm-3 single-member" data-aos="zoom-in">
             ${images[index]}
             <h5 class="council-title">${element.info.display.Raw}</h5>
             <p>${element.info.legal.Raw != null ? `<i class="fas fa-user green-logo"></i> ${element.info.legal.Raw}` : `` }</p>
