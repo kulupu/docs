@@ -140,6 +140,10 @@ body {
     .desk-logo {
         display: none !important;
     }
+
+    .glitch {
+        font-size: 3rem !important;
+    }
 }
 
 .icon-img {
