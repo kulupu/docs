@@ -2,6 +2,24 @@ body {
     background-color: #000 !important;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+	background: #000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #17b06b; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
+
 .key-features {
     margin-top: 50px;
     padding-top: 40px;
@@ -296,6 +314,12 @@ body.preloader-site {
 	/* Animation provies a slight random skew. Check bottom of doc for more information on how to random skew. */
 	 animation: glitch-skew 1s infinite linear alternate-reverse;
 }
+
+.small-glitch {
+	font-size: 18px !important;
+    letter-spacing: 6px !important;
+}
+
  .glitch::before {
 	 content: attr(data-text);
 	 position: absolute;
@@ -532,12 +556,13 @@ body.preloader-site {
 
 /* typing anime */
 .line-1{
+	margin-top: 35px;
     position: relative;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 100%;
+    font-size: 21px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
