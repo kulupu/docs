@@ -32,6 +32,12 @@ body {
     padding-bottom: 40px;
 }
 
+.listed-on {
+	margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .gov-text {
     margin-top: unset !important;
     text-align: center;
@@ -122,6 +128,10 @@ body {
     width: 40px;
 }
 
+.mobile-glitch {
+	display: none !important;
+}
+
 @media ( max-width: 900px ) {
     .orb {
         position: absolute !important;
@@ -161,8 +171,49 @@ body {
 
     .glitch {
         font-size: 3rem !important;
-    }
+	}
+	
+	.navbar-collapse {
+		height: 50px;
+	}
+
+	.display-2 {
+		display: none;
+	}
+
+	#app {
+		align-items: unset !important;
+	}
+
+	.line-1 {
+		text-align: left !important;
+		font-size: 17 !important;
+		width: 100% !important;
+		letter-spacing: 11px !important;
+	}
+
+	.desktop-glitch {
+		display: none !important;
+	}
+
+	.orb {
+		display: block !important;
+	}
+
+	.mobile-glitch {
+		display: block !important;
+	}
+
+	.gecko-img {
+		margin-top: 50px;
+	}
 }
+
+.orb {
+	display: none;
+}
+
+
 
 .icon-img {
     width: 50px;
