@@ -353,8 +353,8 @@ body.preloader-site {
 	 text-align: center;
 }
  .sub {
-	 color: #64dcdc;
-	 letter-spacing: 1em;
+	 color: #64dcdc !important;
+	 letter-spacing: 1em !important;
 }
 /* Our mixin positions a copy of our text directly on our existing text, while also setting content to the appropriate text set in the data-text attribute. */
  .glitch {
@@ -367,9 +367,11 @@ body.preloader-site {
 }
 
 .small-glitch {
-	font-size: 18px !important;
+	font-weight: bold;
+	font-size: 19px !important;
     letter-spacing: 6px !important;
 }
+
 
  .glitch::before {
 	 content: attr(data-text);
@@ -607,13 +609,12 @@ body.preloader-site {
 
 /* typing anime */
 .line-1{
-	margin-top: 35px;
     position: relative;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 21px;
+    font-size: 13px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -638,6 +639,33 @@ body.preloader-site {
     animation: blink 1s infinite;
   }
   
+/* typing */
+  #text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #17b06b;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: #fff;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #fff; 
+	}
+}
+
+
  
  
 
