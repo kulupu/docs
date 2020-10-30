@@ -7,6 +7,34 @@ Wei Tang <wei@that.world>
 This page documents the past network incidents of the Kulupu
 blockchain.
 
+== Module index change in runtime upgrade
+
+_Late October, 2020_
+
+In the **Gondoa** runtime upgrade, an accidential runtime module index
+change happened.
+
+=== Impact
+
+This index change did not impact anything in the scheduler module, as
+when the runtime happened, no scheduling was in planned. However, the
+change impacted all current democracy proposals and the current
+democracy referendum, rendering them invalid, because the
+dispatchables are stored on-chain.
+
+Past referenda and any on-chain transactions are not impacted by the
+module index change.
+
+=== Resolution
+
+The council and the technical committee decided to work together to
+cancel the current democracy referendum and all current democracy
+proposals and to re-submit them again. Alternatively, the current
+democracy referendum can also be simply voted down by coin holders. If
+the current demoracy referendum passes, it will do no harm to the
+chain but it will also be no-op, as the actual dispatachable is
+missing.
+
 == Decoding error in runtime dealing with multiple parameters
 
 _Early August, 2020_
