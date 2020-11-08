@@ -133,6 +133,14 @@ body {
 }
 
 @media ( max-width: 900px ) {
+
+	.small-glitch {
+		font-size: 14px !important;
+		letter-spacing: 6px !important;
+		text-align: left;
+		color: #714cdf !important;
+	}
+	
     .orb {
         position: absolute !important;
         padding-left: 156px !important;
@@ -368,7 +376,7 @@ body.preloader-site {
 
 .small-glitch {
 	font-weight: bold;
-	font-size: 19px !important;
+	font-size: 19px ;
     letter-spacing: 6px !important;
 }
 
@@ -639,12 +647,14 @@ body.preloader-site {
     animation: blink 1s infinite;
   }
   
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 /* typing */
   #text {
 	display: inline-block;
 	vertical-align: middle;
 	color: #17b06b;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
+	font-family: "Courier";
 }
 
 #cursor {
@@ -663,6 +673,38 @@ body.preloader-site {
 	50% { 
 		background-color: #fff; 
 	}
+}
+
+
+html, body {
+	background-color: #000;
+}
+h2, a, p {
+	color: #fff;
+	font-family: Roboto;
+	text-decoration: none;
+}
+p>a {
+	color: #fd084a;
+}
+.blink {
+  animation: blink 0.5s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+	display: flex;
+}
+.header-sub-title {
+  color: #fff;
+  font-family: "Courier";
+  font-size: 20px;
+  padding: 0.1em;
+}
+
+.markets {
+	padding: 30px;
 }
 
 
