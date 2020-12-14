@@ -3,6 +3,9 @@ $(document).ready(function($) {
     Body.addClass('preloader-site');
 });
 $(window).on( 'load', function() {
-    $('.preloader-wrapper').fadeOut();
-    $('body').removeClass('preloader-site');
+    setTimeout(
+        function() {
+            $('.preloader-wrapper').fadeOut();
+            $('body').removeClass('preloader-site');
+        }, 2500);
 });

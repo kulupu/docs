@@ -134,6 +134,10 @@ body {
 
 @media ( max-width: 900px ) {
 
+	.preloader-wrapper .preloader {
+		width: unset !important;
+	}
+
 	.small-glitch {
 		font-size: 14px !important;
 		letter-spacing: 6px !important;
