@@ -101,3 +101,26 @@ democracy referendum can also be simply voted down by coin holders. If
 the current demoracy referendum passes, it will do no harm to the
 chain but it will also be no-op, as the actual dispatachable is
 missing.
+
+== Type definition incompatibility between UI and runtime
+
+_29 December, 2020_
+
+In the **Hotel Adriano** runtime upgrade, an overlooked type
+definition was updated in runtime, but was not updated promptly in the
+polkadot.js UI, resulting in a brief period when the node will not
+accept transactions constructed by polkadot.js.
+
+=== Impact
+
+This incident only impacts polkadot.js UI, and does not impact node
+consensus. However, as most exchanges and explorers depend on the
+polkadot.js library, it results in non-updated services unable to send
+extrinsics or parse extrinsics coming from the network.
+
+=== Resolution
+
+The type definition update
+link:https://github.com/polkadot-js/apps/pull/4281[PR] is submitted to
+the polkadot.js repository. We're in the process of notifying
+exchanges and explorers about this update.
