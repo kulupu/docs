@@ -607,6 +607,18 @@ pre {
           flex: 0 0 100%;
   max-width: 100%; }
 
+.container.single-built {
+    padding-left: 10px;
+}
+
+.container.single-built .col-3 {
+    margin-left: auto;
+}
+
+.container.single-built .col-7 {
+    margin-right: auto;
+}
+
 .order-first {
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
