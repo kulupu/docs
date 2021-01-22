@@ -609,6 +609,8 @@ pre {
 
 .container.single-built {
     padding-left: 10px;
+    max-width: 500px;
+    height: 100%;
 }
 
 .container.single-built .col-3 {
