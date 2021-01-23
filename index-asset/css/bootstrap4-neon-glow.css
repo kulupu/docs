@@ -615,10 +615,15 @@ pre {
 
 .container.single-built .col-3 {
     margin-left: auto;
+    margin-top: 1.4%;
+    padding-bottom: 4.5%;
+    min-width: min-content;
 }
 
 .container.single-built .col-7 {
     margin-right: auto;
+    min-width: min-content;
+    padding-right: 6.8%;
 }
 
 .order-first {
