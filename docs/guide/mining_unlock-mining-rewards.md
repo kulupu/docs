@@ -17,4 +17,4 @@ The procedure for unlocking mining rewards is as follows:
 8. Click "Sign and Submit".
 9. Enter account password to confirm.
 
-![Screenshot from Polkadot.js](/static/img/docs-guide_mining-rewards-unlock.png)
+![Screenshot from Polkadot.js](/img/docs-guide_mining-rewards-unlock.png)
